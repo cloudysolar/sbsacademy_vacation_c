@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Day1">
+      <UniqueIdentifier>{4979f06e-c94a-4c79-960a-1e3535cb9f11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Day2">
+      <UniqueIdentifier>{3227c1ae-ad57-402e-9e3a-b1c52c36ea94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Day2\2. Variables">
+      <UniqueIdentifier>{8baf8f3b-45b2-490b-86b0-7ea550043661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Day3">
+      <UniqueIdentifier>{4b85a751-4c01-4b99-8e03-269340eb2ba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Day4">
+      <UniqueIdentifier>{a2a7f639-5325-496f-9ef8-d9138e061d37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Day2\1. Output">
+      <UniqueIdentifier>{328b6bf2-7379-4972-8e44-edc87d723f9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Day2\3. Input">
+      <UniqueIdentifier>{2396b17b-244b-49e2-959a-a6b6d6fdedc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Day4\1. Conditions">
+      <UniqueIdentifier>{14393ce5-bc2e-41da-a7c7-f2b29c8c2e0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Day4\2. Loops">
+      <UniqueIdentifier>{005c636f-cda7-4d02-b97b-c98004c6231d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Day5">
+      <UniqueIdentifier>{a7bec31a-48e1-41ab-8f32-af1d0306aab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Day6">
+      <UniqueIdentifier>{3d2c0664-b9cf-4488-a9b1-a1a82a7ad80d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Day7">
+      <UniqueIdentifier>{8727ea7f-9d70-4a44-b1ac-e95144fa32ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Lesson0_1.cpp">
+      <Filter>소스 파일\Day1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson0_2.cpp">
+      <Filter>소스 파일\Day1</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson1_1.cpp">
+      <Filter>소스 파일\Day2\1. Output</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson1_2.cpp">
+      <Filter>소스 파일\Day2\1. Output</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson1_3.cpp">
+      <Filter>소스 파일\Day2\1. Output</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson1_4.cpp">
+      <Filter>소스 파일\Day2\1. Output</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson1_5.cpp">
+      <Filter>소스 파일\Day2\1. Output</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson1_6.cpp">
+      <Filter>소스 파일\Day2\2. Variables</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson1_7.cpp">
+      <Filter>소스 파일\Day2\2. Variables</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson1_8.cpp">
+      <Filter>소스 파일\Day2\2. Variables</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson1_9.cpp">
+      <Filter>소스 파일\Day2\3. Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson1_10.cpp">
+      <Filter>소스 파일\Day2\3. Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson1_11.cpp">
+      <Filter>소스 파일\Day2\3. Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson2_1.cpp">
+      <Filter>소스 파일\Day3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson2_2.cpp">
+      <Filter>소스 파일\Day3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson2_3.cpp">
+      <Filter>소스 파일\Day3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson2_4.cpp">
+      <Filter>소스 파일\Day3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson2_5.cpp">
+      <Filter>소스 파일\Day3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson2_6.cpp">
+      <Filter>소스 파일\Day3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson2_7.cpp">
+      <Filter>소스 파일\Day3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson2_8.cpp">
+      <Filter>소스 파일\Day3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson2_9.cpp">
+      <Filter>소스 파일\Day3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson2_10.cpp">
+      <Filter>소스 파일\Day3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson2_11.cpp">
+      <Filter>소스 파일\Day3</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson3_1.cpp">
+      <Filter>소스 파일\Day4\1. Conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson3_2.cpp">
+      <Filter>소스 파일\Day4\1. Conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson3_3.cpp">
+      <Filter>소스 파일\Day4\1. Conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson3_4.cpp">
+      <Filter>소스 파일\Day4\1. Conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson3_5.cpp">
+      <Filter>소스 파일\Day4\1. Conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson3_6.cpp">
+      <Filter>소스 파일\Day4\1. Conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson3_7.cpp">
+      <Filter>소스 파일\Day4\1. Conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson3_8.cpp">
+      <Filter>소스 파일\Day4\1. Conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson3_9.cpp">
+      <Filter>소스 파일\Day4\1. Conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson3_10.cpp">
+      <Filter>소스 파일\Day4\1. Conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson4_1.cpp">
+      <Filter>소스 파일\Day4\2. Loops</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson4_2.cpp">
+      <Filter>소스 파일\Day4\2. Loops</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson4_3.cpp">
+      <Filter>소스 파일\Day4\2. Loops</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson4_4.cpp">
+      <Filter>소스 파일\Day4\2. Loops</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson4_5.cpp">
+      <Filter>소스 파일\Day4\2. Loops</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson4_6.cpp">
+      <Filter>소스 파일\Day4\2. Loops</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson4_7.cpp">
+      <Filter>소스 파일\Day4\2. Loops</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson4_8.cpp">
+      <Filter>소스 파일\Day4\2. Loops</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson4_9.cpp">
+      <Filter>소스 파일\Day4\2. Loops</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson4_10.cpp">
+      <Filter>소스 파일\Day4\2. Loops</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson4_11.cpp">
+      <Filter>소스 파일\Day4\2. Loops</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson5_1.cpp">
+      <Filter>소스 파일\Day5</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson5_2.cpp">
+      <Filter>소스 파일\Day5</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson5_3.cpp">
+      <Filter>소스 파일\Day5</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson5_4.cpp">
+      <Filter>소스 파일\Day5</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson5_5.cpp">
+      <Filter>소스 파일\Day5</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson5_6.cpp">
+      <Filter>소스 파일\Day5</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson5_7.cpp">
+      <Filter>소스 파일\Day5</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson5_8.cpp">
+      <Filter>소스 파일\Day5</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson6_1.cpp">
+      <Filter>소스 파일\Day6</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson6_2.cpp">
+      <Filter>소스 파일\Day6</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson6_3.cpp">
+      <Filter>소스 파일\Day6</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson6_4.cpp">
+      <Filter>소스 파일\Day6</Filter>
+    </ClCompile>
+    <ClCompile Include="lesson6_5.cpp">
+      <Filter>소스 파일\Day6</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson6_6.cpp">
+      <Filter>소스 파일\Day6</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson6_7.cpp">
+      <Filter>소스 파일\Day6</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson6_8.cpp">
+      <Filter>소스 파일\Day6</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson6_9.cpp">
+      <Filter>소스 파일\Day6</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson6_10.cpp">
+      <Filter>소스 파일\Day6</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson6_11.cpp">
+      <Filter>소스 파일\Day6</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson6_12.cpp">
+      <Filter>소스 파일\Day6</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson6_13.cpp">
+      <Filter>소스 파일\Day6</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson6_14.cpp">
+      <Filter>소스 파일\Day6</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson6_15.cpp">
+      <Filter>소스 파일\Day6</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson7_1.cpp">
+      <Filter>소스 파일\Day7</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson7_2.cpp">
+      <Filter>소스 파일\Day7</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson7_3.cpp">
+      <Filter>소스 파일\Day7</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson7_4.cpp">
+      <Filter>소스 파일\Day7</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson7_5.cpp">
+      <Filter>소스 파일\Day7</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson7_6.cpp">
+      <Filter>소스 파일\Day7</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson7_7.cpp">
+      <Filter>소스 파일\Day7</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson7_8.cpp">
+      <Filter>소스 파일\Day7</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson7_9.cpp">
+      <Filter>소스 파일\Day7</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson7_10.cpp">
+      <Filter>소스 파일\Day7</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
