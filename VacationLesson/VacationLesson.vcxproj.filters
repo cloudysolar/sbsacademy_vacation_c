@@ -49,6 +49,9 @@
     <Filter Include="소스 파일\Day7">
       <UniqueIdentifier>{8727ea7f-9d70-4a44-b1ac-e95144fa32ce}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Day8">
+      <UniqueIdentifier>{e6da59b0-ed88-44f5-9993-371ad3c3d828}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Lesson0_1.cpp">
@@ -284,6 +287,30 @@
     </ClCompile>
     <ClCompile Include="Lesson7_10.cpp">
       <Filter>소스 파일\Day7</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson8_1.cpp">
+      <Filter>소스 파일\Day8</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson8_2.cpp">
+      <Filter>소스 파일\Day8</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson8_3.cpp">
+      <Filter>소스 파일\Day8</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson8_4.cpp">
+      <Filter>소스 파일\Day8</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson8_5.cpp">
+      <Filter>소스 파일\Day8</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson8_6.cpp">
+      <Filter>소스 파일\Day8</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson8_7.cpp">
+      <Filter>소스 파일\Day8</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson8_8.cpp">
+      <Filter>소스 파일\Day8</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
