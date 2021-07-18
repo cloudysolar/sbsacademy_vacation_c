@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 int lesson6_1() {
 	char str[10] = "ABCDEFGHI";

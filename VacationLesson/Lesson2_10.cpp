@@ -1,7 +1,7 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int lesson2_10() {
-	// ¹®Á¦ 3: ºñÆ® ½ÃÇÁÆ® ¿¬»êÀÚ¸¦ ÀÌ¿ëÇØ 2¸¦ 16À¸·Î, 256À» 64·Î ¹Ù²ãº¾½Ã´Ù.
+	// ë¬¸ì œ 3: ë¹„íŠ¸ ì‹œí”„íŠ¸ ì—°ì‚°ìžë¥¼ ì´ìš©í•´ 2ë¥¼ 16ìœ¼ë¡œ, 256ì„ 64ë¡œ ë°”ê¿”ë´…ì‹œë‹¤.
 	int a = 2;
 	int b = 256;
 

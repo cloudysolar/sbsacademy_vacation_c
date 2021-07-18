@@ -1,8 +1,8 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <string.h>
 
 int lesson6_4() {
-	char str[100] = "°¡³ª´Ù¶ó";
+	char str[100] = "ê°€ë‚˜ë‹¤ë¼";
 
 	printf("%d\n", strlen(str));
 

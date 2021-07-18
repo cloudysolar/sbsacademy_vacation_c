@@ -1,11 +1,11 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int lesson1_7() {
 	double d = 3.141592;
 	int i = (int) d;
 
-	printf("¿øÁÖÀ²À» double·Î Ãâ·ÂÇÏ¸é %.6f ÀÔ´Ï´Ù.\n", d);
-	printf("¿øÁÖÀ²À» int·Î Ãâ·ÂÇÏ¸é %d ÀÔ´Ï´Ù.\n", i);
+	printf("ì›ì£¼ìœ¨ì„ doubleë¡œ ì¶œë ¥í•˜ë©´ %.6f ì…ë‹ˆë‹¤.\n", d);
+	printf("ì›ì£¼ìœ¨ì„ intë¡œ ì¶œë ¥í•˜ë©´ %d ì…ë‹ˆë‹¤.\n", i);
 
 	return 0;
 }

@@ -1,7 +1,7 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 int lesson6_2() {
-	char kor[5] = "�ѱ�";
+	char kor[5] = "한글";
 
 	printf("%s\n", kor);
 

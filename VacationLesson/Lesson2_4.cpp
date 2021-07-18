@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 int lesson2_4() {
 	// 논리 연산자

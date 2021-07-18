@@ -1,11 +1,11 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int lesson8_2() {
 	int arr[5];
 
 	for (int i = 0; i < 5; i++) {
 		scanf_s("%d", &arr[i]);
-		printf("- arr[%d]¿¡ ÀÔ·ÂµÈ °ª: %d\n\n", i, arr[i]);
+		printf("- arr[%d]ì— ìž…ë ¥ëœ ê°’: %d\n\n", i, arr[i]);
 	}
 
 	return 0;

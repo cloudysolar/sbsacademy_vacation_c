@@ -1,43 +1,18 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
-int lesson1_8() {
-	// ÀÚ·áÇü: bool
-	bool b = true;
+int lesson7_8() {
+	// ë¬¸ì œ 3-1: í•œ ë³€ì˜ ê¸¸ì´ë¥¼ ì…ë ¥ë°›ìœ¼ë©´ í•´ë‹¹ ê¸¸ì´ ë§Œí¼ì˜ ì •ì‚¬ê°í˜•ì„ ì¶œë ¥í•´ë´…ì‹œë‹¤. ("*" ë¡œ ì¶œë ¥í•˜ê¸°)
+	int size = 0;
 
-	// ÀÚ·áÇü: char
-	unsigned char c = 'A';
+	scanf_s("%d", &size);
 
-	// ÀÚ·áÇü: short
-	unsigned short s = 10;
+	for (int i = 0; i < size; i++) {
+		for (int j = 0; j < size; j++) {
+			printf("*");
+		}
 
-	// ÀÚ·áÇü: int
-	unsigned int i = 200;
-
-	// ÀÚ·áÇü: long
-	unsigned long l = 500;
-
-	// ÀÚ·áÇü: long long
-	unsigned long long ll = 2147483648;
-
-	// ÀÚ·áÇü: float
-	float f = 3.141592f;
-
-	// ÀÚ·áÇü: double
-	double d = 50.4894321;
-
-	// ÀÚ·áÇü: long double
-	long double ld = 5000.123456;
-
-	printf("== °¢ ÀÚ·áÇüÀÇ °ª°ú Å©±â ==\n\n");
-	printf("- bool:		%d						(Å©±â: %d)\n", b, sizeof(bool));
-	printf("- char:		%c / %d						(Å©±â: %d)\n", c, c, sizeof(unsigned char));
-	printf("- short:	%d						(Å©±â: %d)\n", s, sizeof(unsigned short));
-	printf("- int:		%d						(Å©±â: %d)\n", i, sizeof(unsigned int));
-	printf("- long:		%ld						(Å©±â: %d)\n", l, sizeof(unsigned long));
-	printf("- long long:	%lld					(Å©±â: %d)\n", ll, sizeof(unsigned long long));
-	printf("- float:	%f / %e/ %g		(Å©±â: %d)\n", f, f, f, sizeof(float));
-	printf("- double:	%f / %e / %g		(Å©±â: %d)\n", d, d, d, sizeof(double));
-	printf("- long double:	%Lf					(Å©±â: %d)\n", ld, sizeof(long double));
+		printf("\n");
+	}
 
 	return 0;
 }

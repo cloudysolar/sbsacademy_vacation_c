@@ -1,7 +1,7 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int lesson4_9() {
-	// ¹®Á¦ 2: ¼ýÀÚ¸¦ ÀÔ·Â¹Þ°í ÇØ´ç ¼ýÀÚÀÇ ±¸±¸´ÜÀ» 1ºÎÅÍ 9±îÁö Ãâ·ÂÇØº¾½Ã´Ù.
+	// ë¬¸ì œ 2: ìˆ«ìžë¥¼ ìž…ë ¥ë°›ê³  í•´ë‹¹ ìˆ«ìžì˜ êµ¬êµ¬ë‹¨ì„ 1ë¶€í„° 9ê¹Œì§€ ì¶œë ¥í•´ë´…ì‹œë‹¤.
 	int input = 0;
 
 	scanf_s("%d", &input);

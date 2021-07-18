@@ -1,18 +1,18 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int lesson5_8() {
-	// ¹®Á¦ 2: Å©±â°¡ 5ÀÎ intÇü ¹è¿­À» ¸¸µé°í ¼ýÀÚ 5°³¸¦ ÀÔ·Â¹Þ¾Æ ¸ðµÎ ´õÇÑ °ªÀ» Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥À» ¸¸µé¾îº¾½Ã´Ù.
+	// ë¬¸ì œ 2: í¬ê¸°ê°€ 5ì¸ intí˜• ë°°ì—´ì„ ë§Œë“¤ê³  ìˆ«ìž 5ê°œë¥¼ ìž…ë ¥ë°›ì•„ ëª¨ë‘ ë”í•œ ê°’ì„ ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ëž¨ì„ ë§Œë“¤ì–´ë´…ì‹œë‹¤.
 	int arr[5];
 	int sum = 0;
 
 	for (int i = 0; i < 5; i++) {
-		printf("\n[%d/5] ¼ýÀÚ ÀÔ·Â: ", (i + 1));
+		printf("\n[%d/5] ìˆ«ìž ìž…ë ¥: ", (i + 1));
 		scanf_s("%d", &arr[i]);
 
 		sum += arr[i];
 	}
 
-	printf("\n>> ÀÔ·ÂµÈ ¸ðµç ¼ýÀÚÀÇ ÇÕ: %d\n", sum);
+	printf("\n>> ìž…ë ¥ëœ ëª¨ë“  ìˆ«ìžì˜ í•©: %d\n", sum);
 
 	return 0;
 }

@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 int lesson5_5() {
 	int arr1[10] = { 0 };

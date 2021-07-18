@@ -1,13 +1,13 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <string.h>
 
 int lesson6_9() {
-	// ¹®Á¦ 1: ¹®ÀÚ¿­À» ÀÔ·Â¹Ş°í ÇØ´ç ¹®ÀÚ¿­ÀÇ ±æÀÌ¸¦ ±¸ÇØº¾½Ã´Ù. (ÃÖ´ë ±æÀÌ 100)
+	// ë¬¸ì œ 1: ë¬¸ìì—´ì„ ì…ë ¥ë°›ê³  í•´ë‹¹ ë¬¸ìì—´ì˜ ê¸¸ì´ë¥¼ êµ¬í•´ë´…ì‹œë‹¤. (ìµœëŒ€ ê¸¸ì´ 100)
 	char input[100] = "";
 
 	scanf_s("%[^\n]s", input, sizeof(input));
-	printf("\n - ÀÔ·ÂµÈ ¹®ÀÚ¿­: %s\n", input);
-	printf(" - ÀÔ·ÂµÈ ¹®ÀÚ¿­ÀÇ ±æÀÌ: %d\n", strlen(input));
+	printf("\n - ì…ë ¥ëœ ë¬¸ìì—´: %s\n", input);
+	printf(" - ì…ë ¥ëœ ë¬¸ìì—´ì˜ ê¸¸ì´: %d\n", strlen(input));
 
 	return 0;
 }

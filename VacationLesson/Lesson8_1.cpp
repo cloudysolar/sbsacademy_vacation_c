@@ -1,10 +1,10 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int lesson8_1() {
 	int arr[] = { 0, 1, 2, 3, 4 };
 
-	printf("- arr[3]ÀÇ °ª: %d\n", arr[3]);
-	printf("- arrÀÇ ±æÀÌ: %d\n", sizeof(arr) / sizeof(int));
+	printf("- arr[3]ì˜ ê°’: %d\n", arr[3]);
+	printf("- arrì˜ ê¸¸ì´: %d\n", sizeof(arr) / sizeof(int));
 
 	return 0;
 }

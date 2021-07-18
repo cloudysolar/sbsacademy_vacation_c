@@ -1,7 +1,7 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int lesson8_7() {
-	// ¹®Á¦ 2: ÀÌÂ÷¿ø ¹è¿­À» ¸¸µé°í °¢ ¹è¿­ÀÇ ÇÕÀ» ±¸ÇØ Ãâ·ÂÇØº¾½Ã´Ù.
+	// ë¬¸ì œ 2: ì´ì°¨ì› ë°°ì—´ì„ ë§Œë“¤ê³  ê° ë°°ì—´ì˜ í•©ì„ êµ¬í•´ ì¶œë ¥í•´ë´…ì‹œë‹¤.
 	int arr[5][3];
 	int sums[5];
 	int count = 1;
@@ -10,7 +10,7 @@ int lesson8_7() {
 		int sum = 0;
 
 		for (int j = 0; j < 3; j++) {
-			printf("\n# ÀÔ·Â [%d/%d]: ", count, 15);
+			printf("\n# ì…ë ¥ [%d/%d]: ", count, 15);
 			scanf_s("%d", &arr[i][j]);
 			sum += arr[i][j];
 
@@ -20,7 +20,7 @@ int lesson8_7() {
 		sums[i] = sum;
 	}
 
-	printf("\n\n- ÇÕ°è: ");
+	printf("\n\n- í•©ê³„: ");
 
 	for (int i = 0; i < 5; i++) {
 		printf("%d ", sums[i]);

@@ -1,10 +1,10 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int lesson7_3() {
-	// ¹®Á¦ 1: ±¸±¸´ÜÀ» 1´ÜºÎÅÍ 9´Ü±îÁö Ãâ·ÂÇØº¾½Ã´Ù.
+	// ë¬¸ì œ 1: êµ¬êµ¬ë‹¨ì„ 1ë‹¨ë¶€í„° 9ë‹¨ê¹Œì§€ ì¶œë ¥í•´ë´…ì‹œë‹¤.
 
 	for (int i = 1; i <= 9; i++) {
-		printf("\n[ %d´Ü ]\n", i);
+		printf("\n[ %dë‹¨ ]\n", i);
 
 		for (int j = 1; j <= 9; j++) {
 			printf("  %d X %d = %d\n", i, j, (i * j));

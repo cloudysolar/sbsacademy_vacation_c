@@ -1,10 +1,10 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int lesson3_1() {
 	int i = 10;
 
 	if (i < 10) {
-		printf("Á¶°Ç½ÄÀÇ °á°ú°¡ ÂüÀÌ¸é ÀÌ ¹®ÀåÀÌ º¸¿©¿ä!\n");
+		printf("ì¡°ê±´ì‹ì˜ ê²°ê³¼ê°€ ì°¸ì´ë©´ ì´ ë¬¸ìž¥ì´ ë³´ì—¬ìš”!\n");
 	}
 
 	return 0;

@@ -1,43 +1,43 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int lesson1_6() {
-	// ÀÚ·áÇü: bool
+	// ìë£Œí˜•: bool
 	bool b = true;
 
-	// ÀÚ·áÇü: char
+	// ìë£Œí˜•: char
 	char c = 'A';
 
-	// ÀÚ·áÇü: short
+	// ìë£Œí˜•: short
 	short s = 10;
 
-	// ÀÚ·áÇü: int
+	// ìë£Œí˜•: int
 	int i = 200;
 
-	// ÀÚ·áÇü: long
+	// ìë£Œí˜•: long
 	long l = 500;
 
-	// ÀÚ·áÇü: long long
+	// ìë£Œí˜•: long long
 	long long ll = 2147483648;
 
-	// ÀÚ·áÇü: float
+	// ìë£Œí˜•: float
 	float f = 3.141592f;
 
-	// ÀÚ·áÇü: double
+	// ìë£Œí˜•: double
 	double d = 50.4894321;
 
-	// ÀÚ·áÇü: long double
+	// ìë£Œí˜•: long double
 	long double ld = 5000.123456;
 
-	printf("== °¢ ÀÚ·áÇüÀÇ °ª°ú Å©±â ==\n\n");
-	printf("- bool:		%d						(Å©±â: %d)\n", b, sizeof(bool));
-	printf("- char:		%c / %d						(Å©±â: %d)\n", c, c, sizeof(char));
-	printf("- short:	%d						(Å©±â: %d)\n", s, sizeof(short));
-	printf("- int:		%d						(Å©±â: %d)\n", i, sizeof(int));
-	printf("- long:		%ld						(Å©±â: %d)\n", l, sizeof(long));
-	printf("- long long:	%lld					(Å©±â: %d)\n", ll, sizeof(long long));
-	printf("- float:	%f / %e/ %g		(Å©±â: %d)\n", f, f, f, sizeof(float));
-	printf("- double:	%f / %e / %g		(Å©±â: %d)\n", d, d, d, sizeof(double));
-	printf("- long double:	%Lf					(Å©±â: %d)\n", ld, sizeof(long double));
+	printf("== ê° ìë£Œí˜•ì˜ ê°’ê³¼ í¬ê¸° ==\n\n");
+	printf("- bool:		%d						(í¬ê¸°: %d)\n", b, sizeof(bool));
+	printf("- char:		%c / %d						(í¬ê¸°: %d)\n", c, c, sizeof(char));
+	printf("- short:	%d						(í¬ê¸°: %d)\n", s, sizeof(short));
+	printf("- int:		%d						(í¬ê¸°: %d)\n", i, sizeof(int));
+	printf("- long:		%ld						(í¬ê¸°: %d)\n", l, sizeof(long));
+	printf("- long long:	%lld					(í¬ê¸°: %d)\n", ll, sizeof(long long));
+	printf("- float:	%f / %e/ %g		(í¬ê¸°: %d)\n", f, f, f, sizeof(float));
+	printf("- double:	%f / %e / %g		(í¬ê¸°: %d)\n", d, d, d, sizeof(double));
+	printf("- long double:	%Lf					(í¬ê¸°: %d)\n", ld, sizeof(long double));
 
 	return 0;
 }

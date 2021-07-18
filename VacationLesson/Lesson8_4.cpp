@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 int lesson8_4() {
 	int arr[3][2] = { { 0, 1 }, { 2, 3 }, { 4, 5 } };

@@ -1,8 +1,8 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <string.h>
 
 int lesson6_15() {
-	// ¹®Á¦ 6-2: ÇØ°áÇß´Ù¸é ÀÚ¸¥ ¹®ÀÚ¿­ÀÇ ±æÀÌ¸¦ ±¸ÇØº¾½Ã´Ù.
+	// ë¬¸ì œ 6-2: í•´ê²°í–ˆë‹¤ë©´ ìë¥¸ ë¬¸ìì—´ì˜ ê¸¸ì´ë¥¼ êµ¬í•´ë´…ì‹œë‹¤.
 	char input[100] = "";
 	char findStr[100] = "";
 	char find = '\0';
@@ -15,8 +15,8 @@ int lesson6_15() {
 	scanf_s("%c", &find, 1);
 
 	strcpy_s(findStr, sizeof(findStr), strchr(input, find));
-	printf("\n - ÀÚ¸¥ ¹®ÀÚ¿­: %s\n", findStr);
-	printf(" - ¹®ÀÚ¿­ ±æÀÌ: %d\n", strlen(findStr));
+	printf("\n - ìë¥¸ ë¬¸ìì—´: %s\n", findStr);
+	printf(" - ë¬¸ìì—´ ê¸¸ì´: %d\n", strlen(findStr));
 
 	return 0;
 }

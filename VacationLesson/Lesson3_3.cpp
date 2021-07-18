@@ -1,16 +1,16 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int lesson3_3() {
 	int i = 10;
 
 	if (i < 10) {
-		printf("i < 10 Á¶°Ç½ÄÀÇ °á°ú°¡ ÂüÀÌ¸é ÀÌ ¹®ÀåÀÌ º¸¿©¿ä!\n");
+		printf("i < 10 ì¡°ê±´ì‹ì˜ ê²°ê³¼ê°€ ì°¸ì´ë©´ ì´ ë¬¸ìž¥ì´ ë³´ì—¬ìš”!\n");
 	}
 	else if (i > 10) {
-		printf("i > 10 Á¶°Ç½ÄÀÇ °á°ú°¡ ÂüÀÌ¸é ÀÌ ¹®ÀåÀÌ º¸¿©¿ä!\n");
+		printf("i > 10 ì¡°ê±´ì‹ì˜ ê²°ê³¼ê°€ ì°¸ì´ë©´ ì´ ë¬¸ìž¥ì´ ë³´ì—¬ìš”!\n");
 	}
 	else {
-		printf("¸ðµç Á¶°Ç½ÄÀÇ °á°ú°¡ °ÅÁþÀÌ¸é ÀÌ ¹®ÀåÀÌ º¸¿©¿ä!\n");
+		printf("ëª¨ë“  ì¡°ê±´ì‹ì˜ ê²°ê³¼ê°€ ê±°ì§“ì´ë©´ ì´ ë¬¸ìž¥ì´ ë³´ì—¬ìš”!\n");
 	}
 
 	return 0;

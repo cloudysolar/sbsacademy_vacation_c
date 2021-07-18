@@ -1,8 +1,8 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <string.h>
 
 int lesson6_10() {
-	// ¹®Á¦ 2: ¹®ÀÚ¿­ 2°³¸¦ ÀÔ·Â¹Ş°í ÇØ´ç ¹®ÀÚ¿­À» ºñ±³ÇØ °á°ú¸¦ Ãâ·ÂÇØº¾½Ã´Ù.
+	// ë¬¸ì œ 2: ë¬¸ìì—´ 2ê°œë¥¼ ì…ë ¥ë°›ê³  í•´ë‹¹ ë¬¸ìì—´ì„ ë¹„êµí•´ ê²°ê³¼ë¥¼ ì¶œë ¥í•´ë´…ì‹œë‹¤.
 	char input1[100] = "";
 	char input2[100] = "";
 	char tmp = '\0';
@@ -13,10 +13,10 @@ int lesson6_10() {
 	scanf_s("%c", &tmp, 1);
 	scanf_s("%[^\n]s", input2, sizeof(input2));
 
-	printf("\n - Ã¹ ¹øÂ° ¹®ÀÚ¿­: %s\n", input1);
-	printf(" - µÎ ¹øÂ° ¹®ÀÚ¿­: %s\n", input2);
+	printf("\n - ì²« ë²ˆì§¸ ë¬¸ìì—´: %s\n", input1);
+	printf(" - ë‘ ë²ˆì§¸ ë¬¸ìì—´: %s\n", input2);
 
-	printf("\n - µÎ ¹®ÀÚ¿­ÀÇ ºñ±³ °á°ú: %d\n", strcmp(input1, input2));
+	printf("\n - ë‘ ë¬¸ìì—´ì˜ ë¹„êµ ê²°ê³¼: %d\n", strcmp(input1, input2));
 
 	return 0;
 }

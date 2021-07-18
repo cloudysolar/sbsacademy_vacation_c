@@ -1,8 +1,8 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <string.h>
 
 int lesson6_12() {
-	// ¹®Á¦ 4: ¹®ÀÚ¿­ 2°³¸¦ ÀÔ·Â¹Ş°í µÎ ¹®ÀÚ¿­À» º¸±â ÁÁ°Ô ÇÕÃÄº¾½Ã´Ù.
+	// ë¬¸ì œ 4: ë¬¸ìì—´ 2ê°œë¥¼ ì…ë ¥ë°›ê³  ë‘ ë¬¸ìì—´ì„ ë³´ê¸° ì¢‹ê²Œ í•©ì³ë´…ì‹œë‹¤.
 	char input1[100] = "";
 	char input2[100] = "";
 	char tmp = '\0';
@@ -16,7 +16,7 @@ int lesson6_12() {
 
 	strcat_s(input1, sizeof(input1), input2);
 
-	printf(" - ÇÕÃÄÁø ¹®ÀÚ¿­: %s\n", input1);
+	printf(" - í•©ì³ì§„ ë¬¸ìì—´: %s\n", input1);
 
 	return 0;
 }

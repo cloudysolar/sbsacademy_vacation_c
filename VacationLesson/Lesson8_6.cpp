@@ -1,15 +1,15 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int lesson8_6() {
-	// ¹®Á¦ 1: ÀÌÂ÷¿ø ¹è¿­À» ¸¸µé¾î ÀÔ·Â¹Þ°í, ¸ðµç ³»¿ëÀ» Ãâ·ÂÇØº¾½Ã´Ù.
+	// ë¬¸ì œ 1: ì´ì°¨ì› ë°°ì—´ì„ ë§Œë“¤ì–´ ìž…ë ¥ë°›ê³ , ëª¨ë“  ë‚´ìš©ì„ ì¶œë ¥í•´ë´…ì‹œë‹¤.
 	char arr[5][2];
 
 	for (int i = 0; i < 5; i++) {
-		printf("\b - ÀÔ·Â: ");
+		printf("\b - ìž…ë ¥: ");
 		scanf_s(" %c %c", &arr[i][0], 1, &arr[i][1], 1);
 	}
 
-	printf("\n - ÀÔ·ÂµÈ °á°ú:\n");
+	printf("\n - ìž…ë ¥ëœ ê²°ê³¼:\n");
 
 	for (int i = 0; i < 5; i++) {
 		for (int j = 0; j < 2; j++) {

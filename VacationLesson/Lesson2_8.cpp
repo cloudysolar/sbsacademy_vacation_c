@@ -1,10 +1,10 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int lesson2_8() {
-	// ¹®Á¦ 1: °£´ÜÇÑ »çÄ¢¿¬»êÀ» ¼öÇàÇÏ´Â °è»ê±â¸¦ ¸¸µé¾îº¾½Ã´Ù.
+	// ë¬¸ì œ 1: ê°„ë‹¨í•œ ì‚¬ì¹™ì—°ì‚°ì„ ìˆ˜í–‰í•˜ëŠ” ê³„ì‚°ê¸°ë¥¼ ë§Œë“¤ì–´ë´…ì‹œë‹¤.
 	int a = 0, b = 0;
 
-	printf("¸ðµç »çÄ¢¿¬»êÀ» ¼öÇàÇÒ ¼ýÀÚ 2°³¸¦ ¶ç¾î¾²±â·Î ±¸ºÐÇØ ÀÔ·Â ÈÄ ¿£ÅÍ¸¦ ´­·¯ÁÖ¼¼¿ä: \n");
+	printf("ëª¨ë“  ì‚¬ì¹™ì—°ì‚°ì„ ìˆ˜í–‰í•  ìˆ«ìž 2ê°œë¥¼ ë„ì–´ì“°ê¸°ë¡œ êµ¬ë¶„í•´ ìž…ë ¥ í›„ ì—”í„°ë¥¼ ëˆŒëŸ¬ì£¼ì„¸ìš”: \n");
 	scanf_s("%d %d", &a, &b);
 
 	printf("\n");

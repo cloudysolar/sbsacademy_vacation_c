@@ -1,8 +1,8 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <string.h>
 
 int lesson6_14() {
-	// ¹®Á¦ 6-1: ¹®ÀÚ¿­ ÇÏ³ª¿Í ¹®ÀÚ ÇÏ³ª¸¦ ÀÔ·Â¹Þ°í ¹®ÀÚ¿­¿¡¼­ ÇØ´ç ¹®ÀÚ¸¦ Ã£¾Æ ÇØ´ç ¹®ÀÚÀÇ À§Ä¡ºÎÅÍ Ãâ·ÂÇØº¾½Ã´Ù.
+	// ë¬¸ì œ 6-1: ë¬¸ìžì—´ í•˜ë‚˜ì™€ ë¬¸ìž í•˜ë‚˜ë¥¼ ìž…ë ¥ë°›ê³  ë¬¸ìžì—´ì—ì„œ í•´ë‹¹ ë¬¸ìžë¥¼ ì°¾ì•„ í•´ë‹¹ ë¬¸ìžì˜ ìœ„ì¹˜ë¶€í„° ì¶œë ¥í•´ë´…ì‹œë‹¤.
 	char input[100] = "";
 	char find = '\0';
 	char tmp = '\0';

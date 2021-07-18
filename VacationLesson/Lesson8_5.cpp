@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int lesson8_5() {
 	int arr[5][10];
@@ -6,9 +6,9 @@ int lesson8_5() {
 	int inner = sizeof(arr[0]) / sizeof(int);
 	int outer = (sizeof(arr) / inner) / sizeof(int);
 
-	printf(" - ¹è¿­ ÀüÃ¼ Å©±â: %d\n", sizeof(arr) / sizeof(int));
-	printf(" - ¿ÜºÎ ¹è¿­ Å©±â: %d\n", outer);
-	printf(" - ³»ºÎ ¹è¿­ Å©±â: %d\n", inner);
+	printf(" - ë°°ì—´ ì „ì²´ í¬ê¸°: %d\n", sizeof(arr) / sizeof(int));
+	printf(" - ì™¸ë¶€ ë°°ì—´ í¬ê¸°: %d\n", outer);
+	printf(" - ë‚´ë¶€ ë°°ì—´ í¬ê¸°: %d\n", inner);
 
 	return 0;
 }

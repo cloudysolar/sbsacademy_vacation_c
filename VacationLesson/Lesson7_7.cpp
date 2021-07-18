@@ -1,7 +1,7 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int lesson7_7() {
-	// ¹®Á¦ 2-4: ¾Æ·¡ »ï°¢ÇüÀ» Ãâ·ÂÇØº¸°í, 3¹æÇâÀ¸·Î µÚÁý¾î¼­ Ãâ·ÂÇØº¾½Ã´Ù. (Á÷°¢ÀÌ ¿À¸¥ÂÊ À§ ¹æÇâÀÎ Á÷°¢»ï°¢Çü)
+	// ë¬¸ì œ 2-4: ì•„ëž˜ ì‚¼ê°í˜•ì„ ì¶œë ¥í•´ë³´ê³ , 3ë°©í–¥ìœ¼ë¡œ ë’¤ì§‘ì–´ì„œ ì¶œë ¥í•´ë´…ì‹œë‹¤. (ì§ê°ì´ ì˜¤ë¥¸ìª½ ìœ„ ë°©í–¥ì¸ ì§ê°ì‚¼ê°í˜•)
 	int level = 3;
 
 	for (int i = 0; i < level; i++) {

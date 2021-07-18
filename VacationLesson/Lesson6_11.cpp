@@ -1,8 +1,8 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <string.h>
 
 int lesson6_11() {
-	// ¹®Á¦ 3: ¹®ÀÚ¿­ 3°³¸¦ ÀÔ·Â¹Ş°í Ã¹ ¹øÂ° ¹®ÀÚ¿­ÀÇ °ªÀ» ¼¼ ¹øÂ° ¹®ÀÚ¿­¿¡ º¹»çÇØº¾½Ã´Ù.
+	// ë¬¸ì œ 3: ë¬¸ìì—´ 3ê°œë¥¼ ì…ë ¥ë°›ê³  ì²« ë²ˆì§¸ ë¬¸ìì—´ì˜ ê°’ì„ ì„¸ ë²ˆì§¸ ë¬¸ìì—´ì— ë³µì‚¬í•´ë´…ì‹œë‹¤.
 	char input1[100] = "";
 	char input2[100] = "";
 	char input3[100] = "";
@@ -21,9 +21,9 @@ int lesson6_11() {
 
 	strcpy_s(input3, sizeof(input3), input1);
 
-	printf(" - Ã¹ ¹øÂ° ¹®ÀÚ¿­: %s\n", input1);
-	printf(" - µÎ ¹øÂ° ¹®ÀÚ¿­: %s\n", input2);
-	printf(" - ¼¼ ¹øÂ° ¹®ÀÚ¿­: %s\n", input3);
+	printf(" - ì²« ë²ˆì§¸ ë¬¸ìì—´: %s\n", input1);
+	printf(" - ë‘ ë²ˆì§¸ ë¬¸ìì—´: %s\n", input2);
+	printf(" - ì„¸ ë²ˆì§¸ ë¬¸ìì—´: %s\n", input3);
 
 	return 0;
 }
