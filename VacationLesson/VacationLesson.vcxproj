@@ -226,6 +226,9 @@
     <ClCompile Include="Lesson8_7.cpp" />
     <ClCompile Include="Lesson8_8.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include=".editorconfig" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
