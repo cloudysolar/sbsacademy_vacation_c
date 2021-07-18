@@ -6,7 +6,7 @@ int lesson1_9() {
 	int input = 0;
 
 	scanf("%d", &input);
-	printf("ÀÔ·ÂµÈ ¼ö´Â %d ÀÔ´Ï´Ù.\n", input);
+	printf("ì…ë ¥ëœ ìˆ˜ëŠ” %d ì…ë‹ˆë‹¤.\n", input);
 
 	return 0;
 }
