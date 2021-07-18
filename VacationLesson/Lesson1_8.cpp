@@ -1,4 +1,4 @@
-﻿#include <stdio.h>
+#include <stdio.h>
 
 int lesson1_8() {
 	// 문제 3-1: 한 변의 길이를 입력받으면 해당 길이 만큼의 정사각형을 출력해봅시다. ("*" 로 출력하기)
