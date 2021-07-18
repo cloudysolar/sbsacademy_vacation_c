@@ -4,7 +4,7 @@ int lesson1_10() {
 	int input = 0;
 
 	scanf_s("%d", &input);
-	printf("ÀÔ·ÂµÈ ¼ö´Â %d ÀÔ´Ï´Ù.", input);
+	printf("ì…ë ¥ëœ ìˆ˜ëŠ” %d ì…ë‹ˆë‹¤.", input);
 
 	return 0;
 }
