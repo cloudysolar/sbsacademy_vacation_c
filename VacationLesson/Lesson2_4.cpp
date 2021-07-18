@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int lesson2_4() {
-	// ³í¸® ¿¬»êÀÚ
+	// ë…¼ë¦¬ ì—°ì‚°ì
 	int a = 0;
 	int b = 1;
 
