@@ -1,18 +1,18 @@
-﻿#include <stdio.h>
+#include <stdio.h>
 
-int lesson5_8() {
-	// 문제 2: 크기가 5인 int형 배열을 만들고 숫자 5개를 입력받아 모두 더한 값을 출력하는 프로그램을 만들어봅시다.
-	int arr[5];
-	int sum = 0;
+int Lesson5_8() {
+	// 문제 1-2: 크기가 10인 int형 배열을 만들고 숫자 10개를 입력받아 출력하는 프로그램을 만들어봅시다. (for문 이용, 모두 입력 후 한번에 거꾸로 출력)
+	int arr[10];
 
-	for (int i = 0; i < 5; i++) {
-		printf("\n[%d/5] 숫자 입력: ", (i + 1));
+	for (int i = 0; i < 10; i++) {
 		scanf_s("%d", &arr[i]);
-
-		sum += arr[i];
 	}
 
-	printf("\n>> 입력된 모든 숫자의 합: %d\n", sum);
+	printf("\n- 지금까지 입력한 수: ");
+
+	for (int i = 9; i >= 0; i--) {
+		printf("%d, ", arr[i]);
+	}
 
 	return 0;
 }

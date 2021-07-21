@@ -185,6 +185,8 @@
     <ClCompile Include="Lesson4_8.cpp" />
     <ClCompile Include="Lesson4_9.cpp" />
     <ClCompile Include="Lesson5_1.cpp" />
+    <ClCompile Include="Lesson5_10.cpp" />
+    <ClCompile Include="Lesson5_11.cpp" />
     <ClCompile Include="Lesson5_2.cpp" />
     <ClCompile Include="Lesson5_3.cpp" />
     <ClCompile Include="Lesson5_4.cpp" />
@@ -192,6 +194,7 @@
     <ClCompile Include="Lesson5_6.cpp" />
     <ClCompile Include="Lesson5_7.cpp" />
     <ClCompile Include="Lesson5_8.cpp" />
+    <ClCompile Include="Lesson5_9.cpp" />
     <ClCompile Include="Lesson6_1.cpp" />
     <ClCompile Include="Lesson6_10.cpp" />
     <ClCompile Include="Lesson6_11.cpp" />
