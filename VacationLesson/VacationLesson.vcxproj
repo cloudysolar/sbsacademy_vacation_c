@@ -187,6 +187,7 @@
     <ClCompile Include="Lesson5_1.cpp" />
     <ClCompile Include="Lesson5_10.cpp" />
     <ClCompile Include="Lesson5_11.cpp" />
+    <ClCompile Include="Lesson5_12.cpp" />
     <ClCompile Include="Lesson5_2.cpp" />
     <ClCompile Include="Lesson5_3.cpp" />
     <ClCompile Include="Lesson5_4.cpp" />

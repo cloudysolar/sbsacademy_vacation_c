@@ -319,7 +319,10 @@
       <Filter>소스 파일\Day5</Filter>
     </ClCompile>
     <ClCompile Include="Lesson5_11.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Day5</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson5_12.cpp">
+      <Filter>소스 파일\Day5</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
