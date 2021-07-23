@@ -52,6 +52,12 @@
     <Filter Include="소스 파일\Day8">
       <UniqueIdentifier>{e6da59b0-ed88-44f5-9993-371ad3c3d828}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Day9">
+      <UniqueIdentifier>{01c9ecce-652c-4722-a2fd-1da926631a90}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".editorconfig" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Lesson0_1.cpp">
@@ -74,24 +80,6 @@
     </ClCompile>
     <ClCompile Include="Lesson1_5.cpp">
       <Filter>소스 파일\Day2\1. Output</Filter>
-    </ClCompile>
-    <ClCompile Include="Lesson1_6.cpp">
-      <Filter>소스 파일\Day2\2. Variables</Filter>
-    </ClCompile>
-    <ClCompile Include="Lesson1_7.cpp">
-      <Filter>소스 파일\Day2\2. Variables</Filter>
-    </ClCompile>
-    <ClCompile Include="Lesson1_8.cpp">
-      <Filter>소스 파일\Day2\2. Variables</Filter>
-    </ClCompile>
-    <ClCompile Include="Lesson1_9.cpp">
-      <Filter>소스 파일\Day2\3. Input</Filter>
-    </ClCompile>
-    <ClCompile Include="Lesson1_10.cpp">
-      <Filter>소스 파일\Day2\3. Input</Filter>
-    </ClCompile>
-    <ClCompile Include="Lesson1_11.cpp">
-      <Filter>소스 파일\Day2\3. Input</Filter>
     </ClCompile>
     <ClCompile Include="Lesson2_1.cpp">
       <Filter>소스 파일\Day3</Filter>
@@ -126,6 +114,27 @@
     <ClCompile Include="Lesson2_11.cpp">
       <Filter>소스 파일\Day3</Filter>
     </ClCompile>
+    <ClCompile Include="Lesson1_8.cpp">
+      <Filter>소스 파일\Day2\2. Variables</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson1_6.cpp">
+      <Filter>소스 파일\Day2\2. Variables</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson1_7.cpp">
+      <Filter>소스 파일\Day2\2. Variables</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson1_9.cpp">
+      <Filter>소스 파일\Day2\3. Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson1_10.cpp">
+      <Filter>소스 파일\Day2\3. Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson1_11.cpp">
+      <Filter>소스 파일\Day2\3. Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson3_10.cpp">
+      <Filter>소스 파일\Day4\1. Conditions</Filter>
+    </ClCompile>
     <ClCompile Include="Lesson3_1.cpp">
       <Filter>소스 파일\Day4\1. Conditions</Filter>
     </ClCompile>
@@ -151,9 +160,6 @@
       <Filter>소스 파일\Day4\1. Conditions</Filter>
     </ClCompile>
     <ClCompile Include="Lesson3_9.cpp">
-      <Filter>소스 파일\Day4\1. Conditions</Filter>
-    </ClCompile>
-    <ClCompile Include="Lesson3_10.cpp">
       <Filter>소스 파일\Day4\1. Conditions</Filter>
     </ClCompile>
     <ClCompile Include="Lesson4_1.cpp">
@@ -210,7 +216,19 @@
     <ClCompile Include="Lesson5_7.cpp">
       <Filter>소스 파일\Day5</Filter>
     </ClCompile>
+    <ClCompile Include="Lesson5_8.cpp">
+      <Filter>소스 파일\Day5</Filter>
+    </ClCompile>
     <ClCompile Include="Lesson5_9.cpp">
+      <Filter>소스 파일\Day5</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson5_10.cpp">
+      <Filter>소스 파일\Day5</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson5_11.cpp">
+      <Filter>소스 파일\Day5</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson5_12.cpp">
       <Filter>소스 파일\Day5</Filter>
     </ClCompile>
     <ClCompile Include="Lesson6_1.cpp">
@@ -312,20 +330,29 @@
     <ClCompile Include="Lesson8_8.cpp">
       <Filter>소스 파일\Day8</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson5_8.cpp">
-      <Filter>소스 파일\Day5</Filter>
+    <ClCompile Include="Lesson9_1.cpp">
+      <Filter>소스 파일\Day9</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson5_10.cpp">
-      <Filter>소스 파일\Day5</Filter>
+    <ClCompile Include="Lesson9_2.cpp">
+      <Filter>소스 파일\Day9</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson5_11.cpp">
-      <Filter>소스 파일\Day5</Filter>
+    <ClCompile Include="Lesson9_3.cpp">
+      <Filter>소스 파일\Day9</Filter>
     </ClCompile>
-    <ClCompile Include="Lesson5_12.cpp">
-      <Filter>소스 파일\Day5</Filter>
+    <ClCompile Include="Lesson9_4.cpp">
+      <Filter>소스 파일\Day9</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include=".editorconfig" />
+    <ClCompile Include="Lesson9_5.cpp">
+      <Filter>소스 파일\Day9</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson9_6.cpp">
+      <Filter>소스 파일\Day9</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson9_7.cpp">
+      <Filter>소스 파일\Day9</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson9_8.cpp">
+      <Filter>소스 파일\Day9</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
