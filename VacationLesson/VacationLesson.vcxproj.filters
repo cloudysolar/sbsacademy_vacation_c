@@ -64,6 +64,9 @@
     <Filter Include="소스 파일\Day12">
       <UniqueIdentifier>{d7b5e1f1-a43c-4c64-921b-69b8b539adff}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Day13">
+      <UniqueIdentifier>{772866ab-acf6-4beb-bbf0-19102e8519ad}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include=".editorconfig" />
@@ -461,6 +464,9 @@
     </ClCompile>
     <ClCompile Include="Lesson12_7.cpp">
       <Filter>소스 파일\Day12</Filter>
+    </ClCompile>
+    <ClCompile Include="SchoolManager.cpp">
+      <Filter>소스 파일\Day13</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
